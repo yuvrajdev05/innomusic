@@ -1,0 +1,22 @@
+# ==========================================================
+# Copyright (c) 2026 ArtistBots
+# All Rights Reserved.
+#
+# Project      : yuviBots API Telegram Music Bot
+# Powered By   : yuvi 
+# Type         : API Based Telegram Music Bot
+#
+# Bot          : @lovellymusicbot
+# Channel      : https://t.me/+xHz3OmQTHSI0Mzk1
+# Group       : https://t.me/+IAmUQZd310w4ZWQ1
+#
+# Unauthorized copying, modification, or redistribution
+# of this source code without permission is prohibited.
+# ==========================================================
+services:
+  - type: worker
+    name: Elevenyts
+    runtime: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: python -m Elevenyts
+    plan: free
