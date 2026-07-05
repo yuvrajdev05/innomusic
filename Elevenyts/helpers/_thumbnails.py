@@ -56,7 +56,7 @@ ICONS_Y = BAR_Y + 65
 
 MAX_TITLE_WIDTH = 820
 
-_f = "QXJ0aXN0Ym90cw=="
+_f = "SW5heWEgTXVzaWM="
 
 
 def _decode_f():
@@ -233,7 +233,7 @@ class Thumbnail:
                 radius=3, fill=(0, 255, 255)
             )
 
-            clean_title = re.sub(r"\W+", " ", song.title).title() + " | Artistbots"
+            clean_title = re.sub(r"\W+", " ", song.title).title() + " | Yuvibots"
             final_title = trim_to_width(clean_title, self.title_font, MAX_TITLE_WIDTH)
 
             # Drop shadow
